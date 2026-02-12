@@ -8,7 +8,7 @@ import lombok.Setter;
 public class TaskRequest {
     private String title;
     private String description;
-    private Long userId;
+    private Integer userId;
     private Long categoryId;
     private Long priorityId;
 }
